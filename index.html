@@ -3,76 +3,137 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NFZ Official</title>
+<title>NFZ | No Filter Zone</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="dark">
+<body>
 
-<!-- Scroll Progress -->
-<div id="scrollProgress"></div>
+<!-- Preloader -->
+<div id="preloader">NFZ</div>
 
-<!-- Navbar -->
-<nav>
-  <div class="logo">NFZ</div>
-  <ul>
-    <li><a href="#home" class="nav-link">Home</a></li>
-    <li><a href="#about" class="nav-link">About</a></li>
-    <li><a href="#contact" class="nav-link">Contact</a></li>
-    <li><button id="themeToggle">🌞</button></li>
-  </ul>
-</nav>
+<!-- Background Effects -->
+<div id="particles-js"></div>
+<div class="glow-orb orb1"></div>
+<div class="glow-orb orb2"></div>
 
-<!-- Animated Background -->
-<div class="animated-bg">
-  <span class="circle circle1"></span>
-  <span class="circle circle2"></span>
-  <div class="particles"></div>
-</div>
+<header>
+  <div class="logo">NFZ <span>No Filter Zone</span></div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#stats">Stats</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+</header>
 
-<!-- Hero Section -->
-<section id="home" class="hero">
-  <div class="hero-content">
-    <h1 id="hero-tagline">
-      <span class="word">Smart Gaming. Real Vision.</span>
-      <span class="word">Community Builder • Content Creator</span>
-    </h1>
-    <div class="hero-buttons">
-      <a href="https://discord.gg/YourServerLink" target="_blank" class="btn gradient-btn">Join Discord</a>
-      <a href="https://steamcommunity.com/id/YourSteamID" target="_blank" class="btn gradient-btn">Check Steam</a>
-      <a href="https://youtube.com/channel/YourChannelID" target="_blank" class="btn gradient-btn">Subscribe YouTube</a>
+<section class="hero">
+  <h1 class="glitch" data-text="NFZ">NFZ</h1>
+  <h2>Virendra | Gamer • Streamer • Editor</h2>
+  <p>Building a dominant esports identity with passion & precision.</p>
+  <a href="#about" class="btn">Enter NFZ</a>
+</section>
+
+<div class="divider"></div>
+
+<section id="about" class="section reveal">
+  <h2>About NFZ</h2>
+  <p>
+    NFZ is more than a name — it's a digital ambition.
+    Focused on building an elite gaming brand and strong online presence.
+  </p>
+</section>
+
+<div class="divider"></div>
+
+<section id="stats" class="section stats reveal">
+  <div class="stat-box">
+    <h3 class="counter" data-target="1000">0</h3>
+    members
+    <p>Community Goal</p>
+  </div>
+  <div class="stat-box">
+    <h3 class="counter" data-target="20">0</h3>
+    <p>Content Projects</p>
+  </div>
+  <div class="stat-box">
+    <h3 class="counter" data-target="60">0</h3>
+    <p>Current Members</p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="services" class="section reveal">
+  <h2>Core Focus</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Gaming</h3>
+      <p>Competitive mindset, consistent wins.</p>
+    </div>
+    <div class="card">
+      <h3>Editing</h3>
+      <p>Clean, high-energy gaming edits.</p>
+    </div>
+    <div class="card">
+      <h3>Brand Vision</h3>
+      <p>Building NFZ into a powerful identity.</p>
     </div>
   </div>
 </section>
 
-<!-- About Section -->
-<section id="about" class="fade-in slide-in">
-  <h2>About NFZ</h2>
-  <p>We focus on building a passionate <span class="highlight">Community</span> and growing a strong <span class="highlight">Brand</span> online. Our goal is to provide a platform for gamers and creators alike.</p>
-  <ul class="vision-bullets">
-    <li><span class="glow-icon">•</span> Build a recognized gaming brand</li>
-    <li><span class="glow-icon">•</span> Grow an online community</li>
-    <li><span class="glow-icon">•</span> Create quality digital content</li>
-  </ul>
-</section>
+<div class="divider"></div>
 
-<!-- Contact Section -->
-<section id="contact" class="fade-in slide-in">
-  <h2>Connect With Me</h2>
-  <div class="contact-grid">
-    <a href="https://discord.com/users/YourDiscordID" target="_blank" class="btn gradient-btn card">Discord Profile</a>
-    <a href="https://discord.gg/YourServerLink" target="_blank" class="btn gradient-btn card">Discord Server</a>
-    <a href="https://youtube.com/channel/YourChannelID" target="_blank" class="btn gradient-btn card">YouTube Channel</a>
-    <a href="https://steamcommunity.com/id/YourSteamID" target="_blank" class="btn gradient-btn card">Steam Profile</a>
+<section id="gallery" class="section reveal">
+  <h2>NFZ Gallery</h2>
+  <p class="gallery-sub">Moments. Highlights.</p>
+
+  <div class="gallery-grid">
+    <div class="gallery-card coming">
+      <h3>COMING SOON</h3>
+      <p>Epic moments and gaming highlights will appear here.</p>
+    </div>
   </div>
 </section>
 
 <!-- Footer -->
-<footer>
-  <p>© 2026 NFZ. All rights reserved.</p>
-</footer>
+<section class="pro-footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h2>NFZ</h2>
+      <p class="tag">#NoFilterZone</p>
+      <p>Your digital gaming identity & community hub.</p>
+    </div>
 
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Connect With Me</h3>
+      <div class="social-icons">
+  <a href="https://www.youtube.com/@virendra.69" target="_blank"><i class="fab fa-youtube"></i></a>
+  <a href="https://discord.gg/yourserver" target="_blank"><i class="fab fa-discord"></i></a>
+  <a href="https://www.instagram.com/v1r3ndr.exe/" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 <span>NFZ</span>. All rights reserved.
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 <script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </body>
 </html>
